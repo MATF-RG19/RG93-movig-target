@@ -1,12 +1,22 @@
 #include <GL/glut.h>
 #include "objekti.h"
 
+#include <math.h>
 
+#define PI 3.1415926535
+#define EPSILON 0.1
+#define INF 2000000
+
+extern int animation_parameter;
 
 
 
 
 void draw_duck(){
+
+  glPushMatrix();
+
+  glScalef(0.3,0.3,0.3);
 
                //materijal patke
   GLfloat ambient_duck[] = { 0.3, 0.3, 0.5, 1};
@@ -24,6 +34,8 @@ void draw_duck(){
      
     
      glShadeModel(GL_SMOOTH);
+ 
+     glEnable(GL_LIGHTING);
 	
         /*telo*/
     glPushMatrix();
@@ -37,10 +49,10 @@ void draw_duck(){
        
      
           glColor3f(1,1,0); 
-	  glRotatef(-10*sin(animation_parameter), 0, 1, 0);
+	        glRotatef(-10*sin(animation_parameter), 0, 1, 0);
           glRotatef(-30,0,0,1);
           glTranslatef(0.35,0.3,0);
-	  glScalef(1.5,0.2,1.9);
+	        glScalef(1.5,0.2,1.9);
           glutSolidCube(0.25);
   
           
@@ -126,7 +138,11 @@ void draw_duck(){
           glScalef(1,0.3,1);
           glutSolidCube(0.25);
       glPopMatrix();
-	
+
+
+
+
+glPopMatrix();	
 
 	
      
@@ -153,7 +169,7 @@ void drawS(){
   
 
 	glPushMatrix(); 
-                glColor3f(0.3,0.4,0.5);
+  glColor3f(0.3,0.4,0.5);
  		   
 		glTranslatef(0, 0.5, 0);
 		
@@ -180,3 +196,39 @@ void drawT(){
 	glPopMatrix();
 
 }
+
+
+/*iscrtavanje puske ,objekta iz kog ce se gadjati*/
+void puska(){
+
+  glTranslatef(0,0,-1);
+
+  glPushMatrix();
+        glEnable(GL_LIGHTING);
+        glTranslatef(0,0,1);
+        glColor3f(0.9,0.6,0.3);
+        glScalef(0.15, 0.1, 1);
+        glutSolidCube(1);
+    glPopMatrix();
+
+    glPushMatrix();
+        glEnable(GL_LIGHTING);
+        glColor3f(0.8,0.7,0.4);
+        glScalef(0.1, 0.1, 1);
+        glutSolidCube(1);
+    glPopMatrix();
+    
+
+
+
+}
+
+/*iscrtavanje loptice koja ce predstavljati metak*/
+void drawBall(){
+  glColor3f(0.9,0.4,0.7);
+    
+    glutSolidSphere(0.05,30,30);
+}
+
+
+
