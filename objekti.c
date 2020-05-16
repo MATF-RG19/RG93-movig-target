@@ -158,7 +158,7 @@ void drawP(){
 void drawS(){
 
 	glPushMatrix(); 
-    glColor3f(0.3,0.4,0.5);   
+    glColor3f(0.647059,0.164706,0.164706);   
 		glTranslatef(0, 0.5, 0);
 		glScalef(4.5, 0.08, 1.2);
 		glutSolidCube(1);
@@ -171,7 +171,7 @@ void drawT(){
    
    glPushMatrix(); 
        
-      glColor3f(0.3,0.1,0.5);
+      glColor3f(0.647059,0.164706,0.164706);
  	  glTranslatef(0, -0.5, 0);
       glScalef(5.8, 0.9, 2);
 	  glutSolidCube(1);
