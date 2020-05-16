@@ -5,15 +5,17 @@ LDFLAGS = -L/usr/X11R6/lib -L/usr/pkg/lib
 LDLIBS  = -lglut -lGLU -lGL -lm
 
 
-$(PROGRAM): main.o objekti.o
-	$(CC) $(LDFLAGS) $(CFLAGS) -o $(PROGRAM)  main.o objekti.o $(LDLIBS)
+$(PROGRAM): main.o objekti.o image.o 
+	$(CC) $(LDFLAGS) $(CFLAGS) -o $(PROGRAM)  main.o objekti.o image.o $(LDLIBS)
 
-
+image.o: image.c image.h
+	$(CC) $(LDFLAGS) $(CFLAGS) -c image.c -o image.o
+    
 objekti.o: objekti.c objekti.h
 	$(CC) $(LDFLAGS) $(CFLAGS) -c objekti.c -o objekti.o
 
 
-main.o: main.c objekti.h
+main.o: main.c objekti.h image.h
 	$(CC) $(LDFLAGS) $(CFLAGS) -c main.c -o main.o
 
 .PHONY: clean

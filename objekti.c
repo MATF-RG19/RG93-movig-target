@@ -131,40 +131,42 @@ void draw_duck(){
   glPopMatrix();
 
 glPopMatrix();	
-/*funkvija za iscrtavanje tezge*/  
+/*funkvija za iscrtavanje poda*/  
 }
 void drawP(){
 
-  glPushMatrix(); 
-  
-   glTranslatef(0, -1, 0);
-   glColor3f(0.4,0.4,0.4);
-   glScalef(6, 0, 5);
-   glutSolidCube(1);
-   
-  glPopMatrix();
+    glBegin(GL_QUADS);
+
+       glNormal3f(0, 1, 0);
+        glColor3f(0.4,0.4,0.4);
+        
+        glVertex3f(-3,-1, -2.5);
+        
+      
+        glVertex3f(-3,-1, +2.5);
+        
+        
+        glVertex3f(+3,-1, +2.5);
+        
+        glVertex3f(+3,-1, -2.5);
+     glEnd();
+
+
 
 }
 /*funkcija za iscrtavanje tezge*/
 void drawS(){
 
-
-  
-
 	glPushMatrix(); 
-  glColor3f(0.3,0.4,0.5);
- 		   
+    glColor3f(0.3,0.4,0.5);   
 		glTranslatef(0, 0.5, 0);
-		
 		glScalef(4.5, 0.08, 1.2);
 		glutSolidCube(1);
 	glPopMatrix();
 
-
-
 }
 
-/* iscrtavanje plice*/
+/* iscrtavanje police*/
 void drawT(){
    
    glPushMatrix(); 
