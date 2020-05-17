@@ -224,14 +224,14 @@ void on_keyboard(unsigned char key, int x, int y) {
         case 'd':
         case 'D':
             turnLeft=0;
-		 				turnRight=1;
-		        break;
-			/*kretanje puske nalevo*/	
-	  		case 'a':
+	    turnRight=1;
+            break;
+	/*kretanje puske nalevo*/	
+	case 'a':
         case 'A':
              turnLeft=1;
-		         turnRight=0;
-		         break;
+             turnRight=0;
+             break;
         case 'w':
         case 'W':
             turnUp = 1;
