@@ -15,6 +15,7 @@
 <kbd>P</kbd> / <kbd>p</kbd> Ispucavanje iz puske.<br>
 <kbd>H</kbd> / <kbd>h</kbd> Pauziranje.<br>
 <kbd>R</kbd> / <kbd>r</kbd> Restartovanje.<br>
+<kbd>Esc</kbd>  Izlazak.<br>
 ___
 ### :wrench: Uputstvo za instalaciju i pokretanje:
 ```shell
