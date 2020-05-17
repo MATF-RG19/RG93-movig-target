@@ -221,8 +221,8 @@ void on_keyboard(unsigned char key, int x, int y) {
             glutPostRedisplay();
             break;
           /*kretanje puske nadesno*/
-         case 'd':
-         case 'D':
+        case 'd':
+        case 'D':
             turnLeft=0;
 		 				turnRight=1;
 		        break;
@@ -672,4 +672,5 @@ static void draw_start_screen(){
    glutSwapBuffers();
 
 }
+
 

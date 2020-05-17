@@ -86,26 +86,26 @@ void draw_duck(){
 	/*kljun*/
 	
       glColor3f(1,0.5,0);
-	  glTranslatef(-0.07,-0.065,-0.03);
+	    glTranslatef(-0.07,-0.065,-0.03);
       glutSolidCone(0.07,0.4,25,30);
                
   glPopMatrix();
 
 	/*noge*/
         
-  glPushMatrix();
-	glDisable(GL_LIGHTING);
-	glColor3f(1,0.5,0);
+   glPushMatrix();
+	  glDisable(GL_LIGHTING);
+	  glColor3f(1,0.5,0);
     glRotatef(-20*sin(animation_parameter), 1, 0, 0);
-	glTranslatef(-0.10,0.05,0);
+	  glTranslatef(-0.10,0.05,0);
     glScalef(0.4,1.7,0.3);
     glutSolidCube(0.25);
   glPopMatrix();
 
   glPushMatrix();
-	glColor3f(1,0.5,0);
+	  glColor3f(1,0.5,0);
     glRotatef(-20*cos(animation_parameter), 1, 0, 0);
-	glTranslatef(0.11,0.04,-0.05);
+	  glTranslatef(0.11,0.04,-0.05);
     glScalef(0.4,1.7,0.3);
     glutSolidCube(0.25);
   glPopMatrix();
@@ -115,7 +115,7 @@ void draw_duck(){
   glPushMatrix();
     glColor3f(1,0.5,0);
     glRotatef(-10*sin(animation_parameter), 1, 0, 0);
-	glTranslatef(0.13,-0.14,0.04);
+	  glTranslatef(0.13,-0.14,0.04);
     glScalef(1,0.3,1);
     glutSolidCube(0.25);
   glPopMatrix();
@@ -151,8 +151,6 @@ void drawP(){
         glVertex3f(+3,-1, -2.5);
      glEnd();
 
-
-
 }
 /*funkcija za iscrtavanje tezge*/
 void drawS(){
@@ -169,11 +167,10 @@ void drawS(){
 /* iscrtavanje police*/
 void drawT(){
    
-   glPushMatrix(); 
-       
-      glColor3f(0.647059,0.164706,0.164706);
+   glPushMatrix();        
+    glColor3f(0.647059,0.164706,0.164706);
  	  glTranslatef(0, -0.5, 0);
-      glScalef(5.8, 0.9, 2);
+    glScalef(5.8, 0.9, 2);
 	  glutSolidCube(1);
 	  
    glPopMatrix();
@@ -185,6 +182,7 @@ void drawT(){
 void puska(){
 
   glTranslatef(0,0,-1);
+
 
   glPushMatrix();
         glEnable(GL_LIGHTING);
