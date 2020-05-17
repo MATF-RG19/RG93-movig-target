@@ -1,7 +1,7 @@
-# :pencil2: Movig-target
+# :hatched_chick: Movig-target
 ---
 
-###  :hatched_chick: Opis:
+### :memo : Opis:
   Igrica predtsavlja prikaz gadjanja pilica na vasaru. Pred vama se nalze rasporedjeni pilici koje trebate pogoditi.Pilici gadjate iz puske, koja ispaljuje loptice, mogucnost puske je kretanje levo,desno,gore  i dole. Svako pogodjeno pile nekom lopticom donosi odredjeni broj poena.Medjutim nije sve tako jednostavno, pilice se krecu u krug, takodje odredjeni broj pilica sadrzi vrednos X, kada pogodite 10  pilice sa  vrednoscu X za vas je igra zavrsena.Pored toga vremenom  se kretanje puske kao i loptice koju ispaljuje ubrzava.
 
 ---
