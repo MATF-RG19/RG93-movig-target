@@ -1,4 +1,4 @@
-# :pencil2:: Movig-target
+# :pencil2: Movig-target
 ---
 
 ### :memo: Opis:
