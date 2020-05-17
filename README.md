@@ -2,19 +2,19 @@
 ---
 
 ### :memo: Opis:
-Ideja projekta je prikaz vasara na kome postoji tezga na kojoj gadjamo pilice, pili ce pokrecu,okrecu na policama.Cilj je pogoditi sto vise pri semu gadjamo iz puska lopticama, puska se pomera gore,dole,levo ,desno.Za svako pogodjeno pile dobija se odredjeni broj poena. Medjutim postoje otezavajuce oklolnosti neki pilici sadrze vrednost X, kada pogodimo 10 pilica sa vrednoscu X zavrsavamo igricu.Takodje vremenom dolazi do ubrzavanja kako kretanja pilica, tako i puske i loptice kojom gadjamo pa dolazi do otezanog gadjanja i pogadjanja. Srecno!
+  Igrica predtsavlja prikaz gadjanja pilica na vasaru. Pred vama se nalze rasporedjeni pilici koje trebate pogoditi.Pilici gadjate iz puske, koja ispaljuje loptice, mogucnost puske je kretanje levo,desno,gore  i dole. Svako pogodjeno pile nekom lopticom donosi odredjeni broj poena.Medjutim nije sve tako jednostavno, pilice se krecu u krug, takodje odredjeni broj pilica sadrzi vrednos X, kada pogodite 10  pilice sa  vrednoscu X za vas je igra zavrsena.Pored toga vremenom  se kretanje puske kao i loptice koju ispaljuje ubrzava.
 
 ---
 
 ### :video_game: Komande:
-<kbd>G/g</kbd> / <kbd>g</kbd> Pokretanje. <br>
-<kbd>A/a</kbd> / <kbd>a</kbd> Pomeranje puske u levu stranu. <br>
-<kbd>D/d</kbd> / <kbd>d</kbd> Pomeranje puske  u desnu stranu. <br>
-<kbd>S/s</kbd> / <kbd>r</kbd> Pomeranje puske  na dole.<br>
-<kbd>W/w</kbd> / <kbd>r</kbd> Pomeranje puske  na gore.<br>
-<kbd>P/p</kbd> / <kbd>r</kbd> Ispucavanje iz puske.<br>
-<kbd>H/h</kbd> / <kbd>r</kbd> Pauziranje.<br>
-<kbd>R/r</kbd> / <kbd>r</kbd> Restartovanje.<br>
+<kbd>G</kbd> / <kbd>g</kbd> Pokretanje. <br>
+<kbd>A</kbd> / <kbd>a</kbd> Pomeranje puske u levu stranu. <br>
+<kbd>D</kbd> / <kbd>d</kbd> Pomeranje puske  u desnu stranu. <br>
+<kbd>S</kbd> / <kbd>r</kbd> Pomeranje puske  na dole.<br>
+<kbd>W</kbd> / <kbd>r</kbd> Pomeranje puske  na gore.<br>
+<kbd>P</kbd> / <kbd>p</kbd> Ispucavanje iz puske.<br>
+<kbd>H</kbd> / <kbd>r</kbd> Pauziranje.<br>
+<kbd>R</kbd> / <kbd>r</kbd> Restartovanje.<br>
 ___
 ### :wrench: Uputstvo za instalaciju i pokretanje:
 ```shell
