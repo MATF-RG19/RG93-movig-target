@@ -321,7 +321,7 @@ void on_timer(int id) {
        			
        			if(j%2==0){
        			/*uvecavanje skora za odredjene pilice koje pogodimo, odredjenim indeksom*/
-       		       if(j==32  || j ==0){
+       		       if(j==32){
        			 score =0;
        			}
        			else{
