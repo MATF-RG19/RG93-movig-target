@@ -19,6 +19,7 @@ void drawT();
 void puska();
 void drawBall();
 void draw_score();
+void draw_duck_ugly();
 
 
 #endif

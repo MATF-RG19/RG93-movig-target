@@ -218,6 +218,7 @@ void on_keyboard(unsigned char key, int x, int y) {
             turnLeft = 0;
             turnRight = 0;
             score=0;
+            
             glutPostRedisplay();
             break;
           /*kretanje puske nadesno*/
@@ -320,9 +321,15 @@ void on_timer(int id) {
        			
        			if(j%2==0){
        			/*uvecavanje skora za odredjene pilice koje pogodimo, odredjenim indeksom*/
+       		       if(j==32  || j ==0){
+       			 score =0;
+       			}
+       			else{
        			score= score +50;
        			}
+       			}
        			/*u suprotnom umanjivanje*/
+       		
        			else{
        			 br--;
        			 score -=5;
@@ -461,16 +468,24 @@ void on_display() {
  
  
    glPushMatrix();
+  
     
-    for(int i = 0 ; i < 33 ; i++)
+    for(int i = 0 ; i < 32 ; i++)
      {
        glTranslatef(pilici[i].x,pilici[i].y,pilici[i].z);
        /*ovim proveravam da li ima potrebe da se pile  iscrta, ili je pogodjeno i nestalo*/
+    
         if(pilici[i].alive)
         	draw_duck();
        glTranslatef(-pilici[i].x,-pilici[i].y,-pilici[i].z);
+       
     }
-      
+    glTranslatef(2,2,0);
+    if(pilici[32].alive)
+    draw_duck_ugly();
+    
+    
+    
    glPopMatrix();
   /*pozivanje funkcije za iscrtavanje poda*/
     drawP();
