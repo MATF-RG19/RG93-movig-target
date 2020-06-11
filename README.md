@@ -2,7 +2,7 @@
 ---
 
 ### :pencil: Opis:
-  Igrica predstavlja prikaz gadjanja pilica na vasaru. Pred vama se nalaze rasporedjeni pilici koje trebate pogoditi.Pilice gadjate iz puske, koja ispaljuje loptice, mogucnost puske je kretanje levo,desno,gore  i dole. Svako pogodjeno pile nekom lopticom donosi odredjeni broj poena.Medjutim nije sve tako jednostavno, pilici se krecu u krug, takodje odredjeni broj pilica sadrzi vrednos X, kada pogodite 10  pilica sa  vrednoscu X za vas je igra zavrsena.Pored toga vremenom  se kretanje puske kao i loptice koje ispaljuje ubrzava.
+  Igrica predstavlja prikaz gadjanja pilica na vasaru. Pred vama se nalaze rasporedjeni pilici koje trebate pogoditi.Pilice gadjate iz puske, koja ispaljuje loptice, mogucnost puske je kretanje levo,desno,gore  i dole. Svako pogodjeno pile nekom lopticom donosi odredjeni broj poena.Medjutim nije sve tako jednostavno, pilici se krecu u krug, takodje odredjeni broj pilica sadrzi vrednos X, kada pogodite 10  pilica sa  vrednoscu X za vas je igra zavrsena, i na sve to postoji i ruzno pile koje kada pogodite vasi poeni skupljeni do tad nestaju.Pored toga vremenom  se kretanje puske kao i loptice koje ispaljuje ubrzava.
 
 ---
 
