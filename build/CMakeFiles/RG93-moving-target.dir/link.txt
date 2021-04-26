@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/RG93-moving-target.dir/image.c.o CMakeFiles/RG93-moving-target.dir/main.c.o CMakeFiles/RG93-moving-target.dir/objekti.c.o  -o RG93-moving-target  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so /usr/lib/x86_64-linux-gnu/libXmu.so /usr/lib/x86_64-linux-gnu/libXi.so -lm 
