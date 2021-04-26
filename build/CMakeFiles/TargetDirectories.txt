@@ -1,0 +1,3 @@
+/home/tamara/Desktop/RG93-movig-target/build/CMakeFiles/rebuild_cache.dir
+/home/tamara/Desktop/RG93-movig-target/build/CMakeFiles/edit_cache.dir
+/home/tamara/Desktop/RG93-movig-target/build/CMakeFiles/RG93-moving-target.dir
